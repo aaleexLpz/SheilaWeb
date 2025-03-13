@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheila</title>
+    <link rel="stylesheet" href="estilos/estilosSheila.css">
+    <link rel="icon" type="image/png" href="/imagenes/corazon.png"/>
+</head>
+<body>
+    <header>
+        <h1>Sheila Mouzo Baña</h1>
+    </header>
+    
+    <ul id="listaEnlaces">
+        <li><a href="#seccionInfoBasica">Ir a Información Básica</a></li>
+        <li><a href="#seccionGustos">Ir a Gustos Personales</a></li>
+        <li><a href="pareja.html" onclick="return seguro()" id="enlace">Ir al pesao de su novio</a></li>
+    </ul>
+
+    <div>
+        <a href="signIn.html" id="cerrarSesion" onclick="return cerrarSesion()"><img src="imagenes/cerrar-sesion.png" alt="Logo de cerrar sesión" id="logoutImg"></a>
+    </div>
+
+    <section id="seccionInfoBasica">
+        <h2>Información Básica</h2>
+        <div>
+            Sheila Mouzo Baña, nacida el 25 de Enero de 2005, es una joven gallega de la zona de Costa da Morte, aunque reside en A Coruña.
+        </div>
+        <div>
+            Estudia 2º de Bachillerato en el EPAPU Eduardo Pondal, donde cursará hasta Mayo, a espera de completar la Prueba de Acceso a la Universidad (PAU), con la que intentará acceder a estudios superiores.
+        </div>
+        <div id="ultimoDiv">
+            Su idea es poder formarse en Pedagogía y poder trabajar en centros educativos para contribuír a los estudiantes menos desarrollados a alcanzar sus metas. Una crack &#128151.
+        </div>
+        <img src="imagenes/sheila.jpeg" alt="" id="imgSheila">
+    </section>
+    <section id="seccionGustos">
+        <h2>Gustos Personales</h2>
+        <div>
+            A continuación, la lista de mayor a menor interés de sus gustos personales
+        </div>
+        <ol>
+            <li>
+                El dulce
+                <img src="imagenes/dulce.jpg" alt="">
+            </li>
+            <li>
+                La isla de las Tentaciones
+                <img src="imagenes/laIsla.avif" alt="">
+            </li>
+            <li>
+                El chisme
+                <img src="imagenes/chisme.webp" alt="">
+            </li>
+            <li>
+                El vaper
+                <img src="imagenes/vaper.webp" alt="">
+            </li>
+            <li>
+                El invierno
+                <img src="imagenes/invierno.avif" alt="">
+            </li>
+        </ol>
+        <img src="imagenes/sandra.jpeg" alt="" id="sandra" onmouseover="sandra()" onmouseleave="sandra2()">
+    </section>
+
+    <script src="sheila.js"></script>
+</body>
+</html>
