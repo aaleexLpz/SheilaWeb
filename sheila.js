@@ -28,7 +28,7 @@ function cerrarSesion(){
     let signOut = document.getElementById("cerrarSesion");
 
     if(confirm("Quieres cerrar sesión?")){
-        window.location.href("signIn.html");
+        window.location.href("index.html");
         return true;
     }else{
         return false;
