@@ -63,6 +63,32 @@ form label, form input, #botonInicio {
 
 @media screen and (min-width: 100px) and (max-width: 433px) {
     html {
+        height: 100vh !important;
+        width: 100vw !important;
+        overflow: hidden !important;
+    }
+
+    body {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    form {
+        width: 75vw !important;
+        height: 60vh !important;
+        position: relative !important;
+        bottom: 40px !important;
+    }
+
+    #ojo {
+        width: 20px !important;
+        position: absolute !important;
+        right: 17vw !important;
+        top: 41.25vh !important;
+    }
+}
+ screen and (min-width: 100px) and (max-width: 433px) {
+    html {
         height: 100vh;
         width: 100vw;
         overflow: hidden;
